@@ -45,6 +45,7 @@ export default function Header() {
               <Link to="/teenused" className="hover:text-blue-600">Teenused</Link>
               <Link to="/tooted" className="hover:text-blue-600">Tooted</Link>
               <Link to="/hinnakiri" className="hover:text-blue-600">Hinnakiri</Link>
+              <Link to="/blogi" className="hover:text-blue-600">Blogi</Link>
               <Link to="/meist" className="hover:text-blue-600">Meist</Link>
             </div>
             
@@ -72,6 +73,7 @@ export default function Header() {
                 <Link to="/teenused" className="hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Teenused</Link>
                 <Link to="/tooted" className="hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Tooted</Link>
                 <Link to="/hinnakiri" className="hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Hinnakiri</Link>
+                <Link to="/blogi" className="hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Blogi</Link>
                 <Link to="/meist" className="hover:text-blue-600" onClick={() => setIsMenuOpen(false)}>Meist</Link>
                 <Link
                   to="/kontakt"

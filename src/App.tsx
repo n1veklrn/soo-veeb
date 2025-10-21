@@ -10,6 +10,8 @@ import Contact from './pages/Contact';
 import Products from './pages/Products';
 import Pricing from './pages/Pricing';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 // Hook to update page title
 function usePageTitle(title: string) {
@@ -32,6 +34,8 @@ function App() {
             <Route path="/meist" element={<About />} />
             <Route path="/kontakt" element={<Contact />} />
             <Route path="/hinnakiri" element={<Pricing />} />
+            <Route path="/blogi" element={<Blog />} />
+            <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/privaatsuspoliitika" element={<PrivacyPolicy />} />
           </Routes>
         </main>
