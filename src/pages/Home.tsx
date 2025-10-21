@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Wrench, Battery, PenTool as Tool, Settings, Disc } from 'lucide-react';
+import { Wrench, Battery, PenTool as Tool, Settings, Disc, Star } from 'lucide-react';
 import ImageModal from '../components/ImageModal';
 
 export default function Home() {
   const [selectedImage, setSelectedImage] = React.useState<{ src: string; alt: string } | null>(null);
+  const [currentReviewIndex, setCurrentReviewIndex] = React.useState(0);
 
   React.useEffect(() => {
     document.title = 'Soo Autogrupp - Professionaalne autohooldus Tallinnas';
@@ -15,6 +16,29 @@ export default function Home() {
     { src: 'https://github.com/Soo-Autogrupp/pildid/blob/main/ATV.jpg?raw=true', alt: 'ATV' },
     { src: 'https://github.com/Soo-Autogrupp/pildid/blob/main/USA%20muskel.jpg?raw=true', alt: 'USA Muscle Car' },
     { src: 'https://github.com/Soo-Autogrupp/pildid/blob/main/Tava%20auto.jpg?raw=true', alt: 'Tavaline' }
+  ];
+
+  const reviews = [
+    {
+      name: 'Marianne K.',
+      text: 'Väga sõbralik ja professionaalne teenindus! Olid lahked ja abivalmis ka kõige rumalamate küsimustega.'
+    },
+    {
+      name: 'Kaupo K.',
+      text: 'Asjatundjad, eriti maasturite alal.'
+    },
+    {
+      name: 'Martin A.',
+      text: 'Käisin tegemas elektritöid. Sõbralik teenindus, mõistlikud hinnad ning professionaalne suhtumine.'
+    },
+    {
+      name: 'Rocky B.',
+      text: 'Tekkis probleem auto vaakumpumbaga. Esindus pakkus remonti 1300 euro eest, Soo Autogrupp lahendas sama töö 122 euroga. Rohkem sõnu pole vaja.'
+    },
+    {
+      name: 'Arun T.',
+      text: 'Äärmiselt professionaalne teenindus. Leiti diagnostika käigus üles ka peidetud pisivead, mis muidu jäävad märkamata. Väga usaldusväärne koht.'
+    }
   ];
 
   const services = [
@@ -49,6 +73,14 @@ export default function Home() {
       slug: 'rehvitood'
     }
   ];
+
+  React.useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [reviews.length]);
 
   return (
     <div>
@@ -149,7 +181,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-8">Kõik mis sa meile tood, me suudame parandada</h2>
           <p className="text-base md:text-lg text-gray-600 text-center mb-12 px-4">Näited erinevatest masinatest mida parandanud oleme</p>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {vehicleImages.map((image, index) => (
               <div
@@ -164,6 +196,50 @@ export default function Home() {
                 />
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Reviews Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">Klientide tagasiside</h2>
+
+          <div className="max-w-5xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              {[0, 1, 2].map((offset) => {
+                const reviewIndex = (currentReviewIndex + offset) % reviews.length;
+                const review = reviews[reviewIndex];
+
+                return (
+                  <div
+                    key={offset}
+                    className="bg-white p-6 rounded-lg shadow-md"
+                  >
+                    <div className="flex mb-3">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                      ))}
+                    </div>
+                    <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
+                      "{review.text}"
+                    </p>
+                    <p className="text-gray-900 font-semibold">{review.name}</p>
+                  </div>
+                );
+              })}
+            </div>
+
+            <div className="text-center">
+              <a
+                href="https://share.google/KNJSCnTel2LqnXEoQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-blue-600 text-white px-6 md:px-8 py-2 md:py-3 rounded-md text-base md:text-lg font-medium hover:bg-blue-700 transition-colors"
+              >
+                Vaata kõiki Google arvustusi
+              </a>
+            </div>
           </div>
         </div>
       </section>
