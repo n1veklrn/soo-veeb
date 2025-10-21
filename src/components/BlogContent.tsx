@@ -44,7 +44,7 @@ export default function BlogContent({ content }: BlogContentProps) {
           );
         }
 
-        if (trimmedLine === 'Kokkuvõte' || trimmedLine === 'Mida teha, kui mootorituli süttib?') {
+        if (trimmedLine === 'Kokkuvõte' || trimmedLine === 'Mida teha, kui mootorituli süttib?' || trimmedLine === 'Levinumad põhjused') {
           return (
             <h2 key={index} className="text-2xl font-bold text-slate-900 mt-8 mb-4">
               {trimmedLine}
