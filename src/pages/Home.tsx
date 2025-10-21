@@ -32,8 +32,8 @@ export default function Home() {
       text: 'Käisin tegemas elektritöid. Sõbralik teenindus, mõistlikud hinnad ning professionaalne suhtumine.'
     },
     {
-      name: 'Rocky B.',
-      text: 'Tekkis probleem auto vaakumpumbaga. Esindus pakkus remonti 1300 euro eest, Soo Autogrupp lahendas sama töö 122 euroga. Rohkem sõnu pole vaja.'
+      name: 'Teona T.',
+      text: 'I have to say thousand thanks to these people who helped us so much. They speak English, we needed really urgent help and they did it so well. Fast and efficient work.👌👍'
     },
     {
       name: 'Arun T.',
