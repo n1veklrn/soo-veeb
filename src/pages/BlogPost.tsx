@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { blogPosts } from '../data/blogPosts';
+import BlogContent from '../components/BlogContent';
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -39,11 +40,7 @@ export default function BlogPost() {
             <h1 className="text-4xl font-bold text-slate-900">{post.title}</h1>
           </header>
 
-          <div className="prose prose-slate max-w-none">
-            <div className="whitespace-pre-wrap text-slate-700 leading-relaxed">
-              {post.content}
-            </div>
-          </div>
+          <BlogContent content={post.content} />
         </article>
       </div>
     </div>
