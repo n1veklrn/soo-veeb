@@ -77,7 +77,7 @@ export default function Home() {
   React.useEffect(() => {
     const interval = setInterval(() => {
       setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
-    }, 5000);
+    }, 10000);
 
     return () => clearInterval(interval);
   }, [reviews.length]);
