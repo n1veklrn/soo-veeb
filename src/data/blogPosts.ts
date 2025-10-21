@@ -13,44 +13,38 @@ export const blogPosts: BlogPost[] = [
     slug: 'mootorituli-pohjused',
     title: 'Levinumad põhjused, miks hakkab armatuuril põlema mootorituli ja mida edasi teha',
     summary: 'Mootorituli ei ole lihtsalt tüütu sümbol armatuuril, vaid oluline hoiatussüsteem, mis aitab vältida suuremaid rikkeid. Levinumad põhjused ulatuvad lihtsatest anduririketest kuni kütuse- või süütesüsteemi probleemideni. Õigeaegne diagnostika säästab raha ja hoiab auto töökorras.',
-    content: `Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas Tallinnas probleemid kiirelt ja täpselt kindlaks teeme.
-    
-    Mis on mootorituli ja miks see süttib?
+    content: `Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli segadus. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas probleemid kiirelt ja täpselt kindlaks teeme.
 
+Mis on mootorituli ja miks see süttib?
 Mootorituli on osa auto pardaarvuti süsteemist. Kui mõni andur avastab kõrvalekalde, annab süsteem sellest märku läbi armatuuril põleva sümboli. See on justkui hoiatus, et midagi ei tööta nii, nagu peaks. Mõnikord kustub tuli pärast mõnda käivitust ise, kuid see ei tähenda, et probleem oleks kadunud.
 
 Levinumad põhjused
-
 1. Hapnikuanduri rike
-Hapnikuandur mõõdab heitgaase ja aitab mootoril kütust õigesti doseerida. Kui andur ei tööta, võib kütusekulu tõusta ja mootor töötada ebaefektiivselt. Pikaajaliselt võib see rikkuda katalüsaatori.
-
+ Hapnikuandur mõõdab heitgaase ja aitab mootoril kütust õigesti doseerida. Kui andur ei tööta, võib kütusekulu tõusta ja mootor töötada ebaefektiivselt. Pikaajaliselt võib see rikkuda katalüsaatori.
 2. EGR-klapi probleemid
-EGR-klapp juhib osa heitgaase tagasi mootorisse, et vähendada saastet. Kui klapp ummistub või jääb kinni, süttib mootorituli ning sõiduk võib hakata suitsu välja ajama või jõud kaob.
-
+ EGR-klapp juhib osa heitgaase tagasi mootorisse, et vähendada saastet. Kui klapp ummistub või jääb kinni, süttib mootorituli ning sõiduk võib hakata suitsu välja ajama või jõud kaob.
 3. Süütepoolide ja küünalde rikked
-Kui mootor hakkab tõmblema või kaotab jõudu, on põhjuseks sageli süütepool või küünlad. See on levinud põhjus, miks tuli põlema hakkab, ja seda on mõistlik kiiresti kontrollida, et vältida suuremaid kahjustusi.
-
+ Kui mootor hakkab tõmblema või kaotab jõudu, on põhjuseks sageli süütepool või küünlad. See on levinud põhjus, miks tuli põlema hakkab, ja seda on mõistlik kiiresti kontrollida, et vältida suuremaid kahjustusi.
 4. Kütusesüsteemi vead
-Kütusepumba, pihustite või kütusefiltri probleemid annavad end tihti märku läbi mootoritule. Mõnel juhul võib auto käivitumine muutuda raskeks või kaob kiirendusel jõud.
-
+ Kütusepumba, pihustite või kütusefiltri probleemid annavad end tihti märku läbi mootoritule. Mõnel juhul võib auto käivitumine muutuda raskeks või kaob kiirendusel jõud.
 5. Mootori juhtaju ja tarkvara
-Mõnikord ei ole probleem mehhaaniline, vaid elektrooniline. Auto juhtaju võib saada vigaseid signaale või vajada tarkvara uuendust. Ka see süütab armatuuril hoiatuse.
+ Mõnikord ei ole probleem mehhaaniline, vaid elektrooniline. Auto juhtaju võib saada vigaseid signaale või vajada tarkvara uuendust. Ka see süütab armatuuril hoiatuse.
 
 Millal võib edasi sõita ja millal tuleb peatuda?
-
 Kui tuli süttib, kuid auto käitub tavapäraselt, on tavaliselt võimalik rahulikult sõita lähimasse töökotta. Kui aga tuli vilgub, kaasneb suits, ebaharilikud hääled või jõu kadu, tuleb auto koheselt seisma jätta ja abi otsida. Vilkuv tuli tähendab sageli, et mootor võib saada pöördumatut kahju, kui sõitu jätkata.
 
 Kuidas meie töökojas vea leiame?
-
-Soo Autogrupp kasutab diagnostikaks kaasaegseid Bosch seadmeid, mis loevad veakoodid otse auto aju mälust. See annab täpse pildi, milline süsteem või komponent vajab tähelepanu. Lisaks kontrollime mehhaaniliselt, et probleem ei piirdud ainult elektroonilise veateatega. Tihti toob see välja vead, mida teised töökojad ei suuda leida.
+Soo Autogrupp kasutab diagnostikaks kaasaegseid seadmeid, mis loevad veakoodid otse auto aju mälust. See annab täpse pildi, milline süsteem või komponent vajab tähelepanu. Lisaks kontrollime mehhaaniliselt, et probleem ei piirdub ainult elektroonilise veateatega. Tihti toob see välja vead, mida teised töökojad ei suuda leida.
 
 Mida teha, kui mootorituli süttib?
-
 Ära ignoreeri hoiatust.
 
-Pane tähele, kas kaasnevad ka muud sümptomid (tõmblemine, suits, ebatavaline heli).
+
+Pane tähele, kas kaasnevad ka muud sümptomid (jõu kadu, suits, ebatavaline heli).
+
 
 Broneeri diagnostika nii kiiresti kui võimalik.
+
 
 Kui sinu autol hakkas armatuuril põlema mootorituli, tule meie töökotta Tallinnas. Leiame vea kiiresti üles ja aitame vältida suuremaid kulusid.`,
     createdAt: '2024-01-15',
