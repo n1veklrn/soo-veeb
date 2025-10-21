@@ -86,16 +86,10 @@ OM648 on tuntud oma vastupidavuse, suure pöördemomendi ja sobivuse poolest nii
 
 Vajalikud detailid ümberehituseks
 Et OM648 mootor sobituks Nissan Patrol Y61 kere ja käigukastiga, on vaja erilahendusi:
-Mootori käpad tagavad, et mootor kinnitub kindlalt ja talub ka rasket maastikusõitu.
-
-
-Hübriid turbo annab lisa jõudlust ja parema vastupidavuse.
-
-
-722.6 vaheplaat võimaldab ühendada Mercedes automaatkäigukasti Nissan Patroli vahekastiga.
-
-
-Kõik need detailid on loodud just sellisteks projektideks ja neid saab meie kaudu tellida.
+- Mootori käpad tagavad, et mootor kinnitub kindlalt ja talub ka rasket maastikusõitu.
+- Hübriid turbo annab lisa jõudlust ja parema vastupidavuse.
+- 722.6 vaheplaat võimaldab ühendada Mercedes automaatkäigukasti Nissan Patroli vahekastiga.
+- Kõik need detailid on loodud just sellisteks projektideks ja neid saab meie kaudu tellida.
 
 Töökindluse ja jõudluse kombinatsioon
 OM648 vahetus ei tähenda ainult suuremat võimsust, vaid ka pikaealisust. Õigesti paigaldatud ja hooldatud mootor kestab aastaid ning muudab auto sobivaks nii igapäevasõiduks kui ka ekstreemseks off-road’iks.
