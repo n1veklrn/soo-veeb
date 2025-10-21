@@ -11,8 +11,8 @@ export const blogPosts: BlogPost[] = [
   {
     id: '1',
     slug: 'understanding-engine-diagnostics',
-    title: 'Understanding Engine Diagnostics: A Complete Guide',
-    summary: 'Learn about modern engine diagnostic tools and how they help identify vehicle problems quickly and accurately. Essential knowledge for every car owner.',
+    title: 'Levinumad põhjused, miks hakkab armatuuril põlema mootorituli ja mida edasi teha',
+    summary: 'Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas Tallinnas probleemid kiirelt ja täpselt kindlaks teeme.',
     content: `Modern engine diagnostics have revolutionized how we identify and fix vehicle problems. In this comprehensive guide, we'll explore the tools and techniques used by professional mechanics.
 
 What is Engine Diagnostics?
@@ -36,6 +36,7 @@ Why Regular Diagnostics Matter:
 At SOO AUTOGRUPP, we use state-of-the-art diagnostic equipment to quickly identify any issues with your vehicle. Our experienced technicians can interpret diagnostic data and recommend the best solutions for your car.
 
 Contact us today to schedule a diagnostic check for your vehicle.`,
+    createdAt: '2024-01-15',
   },
   {
     id: '2',
