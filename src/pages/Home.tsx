@@ -6,6 +6,7 @@ import ImageModal from '../components/ImageModal';
 export default function Home() {
   const [selectedImage, setSelectedImage] = React.useState<{ src: string; alt: string } | null>(null);
   const [currentReviewIndex, setCurrentReviewIndex] = React.useState(0);
+  const [isResetting, setIsResetting] = React.useState(false);
 
   React.useEffect(() => {
     document.title = 'Soo Autogrupp - Professionaalne autohooldus Tallinnas';
@@ -76,7 +77,17 @@ export default function Home() {
 
   React.useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
+      setCurrentReviewIndex((prev) => {
+        const next = prev + 1;
+        if (next >= reviews.length) {
+          setIsResetting(true);
+          setTimeout(() => {
+            setIsResetting(false);
+          }, 50);
+          return 0;
+        }
+        return next;
+      });
     }, 10000);
 
     return () => clearInterval(interval);
@@ -209,12 +220,12 @@ export default function Home() {
             <div className="relative overflow-hidden">
               <div className="hidden md:block">
                 <div
-                  className="flex gap-6 mb-8 transition-transform duration-1000 ease-in-out"
+                  className={`flex gap-6 mb-8 ${isResetting ? '' : 'transition-transform duration-1000 ease-in-out'}`}
                   style={{
-                    transform: `translateX(-${(currentReviewIndex % reviews.length) * (100 / 3)}%)`
+                    transform: `translateX(-${currentReviewIndex * (100 / 3)}%)`
                   }}
                 >
-                  {[...reviews, ...reviews.slice(0, 3)].map((review, index) => (
+                  {[...reviews, ...reviews, ...reviews].map((review, index) => (
                     <div
                       key={index}
                       className="bg-white p-6 rounded-lg shadow-md flex-shrink-0"
