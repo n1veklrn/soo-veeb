@@ -13,8 +13,7 @@ export const blogPosts: BlogPost[] = [
     slug: 'mootorituli-pohjused',
     title: 'Levinumad põhjused, miks hakkab armatuuril põlema mootorituli ja mida edasi teha',
     summary: 'Mootorituli ei ole lihtsalt tüütu sümbol armatuuril, vaid oluline hoiatussüsteem, mis aitab vältida suuremaid rikkeid. Levinumad põhjused ulatuvad lihtsatest anduririketest kuni kütuse- või süütesüsteemi probleemideni. Õigeaegne diagnostika säästab raha ja hoiab auto töökorras.',
-    content: `Sissejuhatus
-Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas Tallinnas probleemid kiirelt ja täpselt kindlaks teeme.
+    content: `Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas Tallinnas probleemid kiirelt ja täpselt kindlaks teeme.
     
     Mis on mootorituli ja miks see süttib?
 
