@@ -10,32 +10,51 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     id: '1',
-    slug: 'understanding-engine-diagnostics',
+    slug: 'mootorituli-pohjused',
     title: 'Levinumad põhjused, miks hakkab armatuuril põlema mootorituli ja mida edasi teha',
-    summary: 'Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas Tallinnas probleemid kiirelt ja täpselt kindlaks teeme.',
-    content: `Modern engine diagnostics have revolutionized how we identify and fix vehicle problems. In this comprehensive guide, we'll explore the tools and techniques used by professional mechanics.
+    summary: 'Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni.',
+    content: `Mis on mootorituli ja miks see süttib?
 
-What is Engine Diagnostics?
+Mootorituli on osa auto pardaarvuti süsteemist. Kui mõni andur avastab kõrvalekalde, annab süsteem sellest märku läbi armatuuril põleva sümboli. See on justkui hoiatus, et midagi ei tööta nii, nagu peaks. Mõnikord kustub tuli pärast mõnda käivitust ise, kuid see ei tähenda, et probleem oleks kadunud.
 
-Engine diagnostics involves using specialized computer systems to communicate with your vehicle's onboard computer (ECU). These systems read error codes and sensor data to pinpoint issues.
+Levinumad põhjused
 
-Common Diagnostic Tools:
+1. Hapnikuanduri rike
+Hapnikuandur mõõdab heitgaase ja aitab mootoril kütust õigesti doseerida. Kui andur ei tööta, võib kütusekulu tõusta ja mootor töötada ebaefektiivselt. Pikaajaliselt võib see rikkuda katalüsaatori.
 
-1. OBD-II Scanners - Standard diagnostic tools that connect to your vehicle's diagnostic port
-2. Multimeters - Measure electrical current, voltage, and resistance
-3. Compression Testers - Check engine cylinder health
-4. Scan Tools - Advanced devices that provide detailed system information
+2. EGR-klapi probleemid
+EGR-klapp juhib osa heitgaase tagasi mootorisse, et vähendada saastet. Kui klapp ummistub või jääb kinni, süttib mootorituli ning sõiduk võib hakata suitsu välja ajama või jõud kaob.
 
-Why Regular Diagnostics Matter:
+3. Süütepoolide ja küünalde rikked
+Kui mootor hakkab tõmblema või kaotab jõudu, on põhjuseks sageli süütepool või küünlad. See on levinud põhjus, miks tuli põlema hakkab, ja seda on mõistlik kiiresti kontrollida, et vältida suuremaid kahjustusi.
 
-- Early problem detection saves money on repairs
-- Prevents breakdowns and safety issues
-- Maintains optimal vehicle performance
-- Helps pass emissions testing
+4. Kütusesüsteemi vead
+Kütusepumba, pihustite või kütusefiltri probleemid annavad end tihti märku läbi mootoritule. Mõnel juhul võib auto käivitumine muutuda raskeks või kaob kiirendusel jõud.
 
-At SOO AUTOGRUPP, we use state-of-the-art diagnostic equipment to quickly identify any issues with your vehicle. Our experienced technicians can interpret diagnostic data and recommend the best solutions for your car.
+5. Mootori juhtaju ja tarkvara
+Mõnikord ei ole probleem mehhaaniline, vaid elektrooniline. Auto juhtaju võib saada vigaseid signaale või vajada tarkvara uuendust. Ka see süütab armatuuril hoiatuse.
 
-Contact us today to schedule a diagnostic check for your vehicle.`,
+Millal võib edasi sõita ja millal tuleb peatuda?
+
+Kui tuli süttib, kuid auto käitub tavapäraselt, on tavaliselt võimalik rahulikult sõita lähimasse töökotta. Kui aga tuli vilgub, kaasneb suits, ebaharilikud hääled või jõu kadu, tuleb auto koheselt seisma jätta ja abi otsida. Vilkuv tuli tähendab sageli, et mootor võib saada pöördumatut kahju, kui sõitu jätkata.
+
+Kuidas meie töökojas vea leiame?
+
+Soo Autogrupp kasutab diagnostikaks kaasaegseid Bosch seadmeid, mis loevad veakoodid otse auto aju mälust. See annab täpse pildi, milline süsteem või komponent vajab tähelepanu. Lisaks kontrollime mehhaaniliselt, et probleem ei piirdud ainult elektroonilise veateatega. Tihti toob see välja vead, mida teised töökojad ei suuda leida.
+
+Mida teha, kui mootorituli süttib?
+
+Ära ignoreeri hoiatust.
+
+Pane tähele, kas kaasnevad ka muud sümptomid (tõmblemine, suits, ebatavaline heli).
+
+Broneeri diagnostika nii kiiresti kui võimalik.
+
+Kokkuvõte
+
+Mootorituli ei ole lihtsalt tüütu sümbol armatuuril, vaid oluline hoiatussüsteem, mis aitab vältida suuremaid rikkeid. Levinumad põhjused ulatuvad lihtsatest anduririketest kuni kütuse- või süütesüsteemi probleemideni. Õigeaegne diagnostika säästab raha ja hoiab auto töökorras.
+
+Kui sinu autol hakkas armatuuril põlema mootorituli, tule meie töökotta Tallinnas. Leiame vea kiiresti üles ja aitame vältida suuremaid kulusid.`,
     createdAt: '2024-01-15',
   },
   {
