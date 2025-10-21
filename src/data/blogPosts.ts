@@ -54,30 +54,23 @@ Kui sinu autol hakkas armatuuril põlema mootorituli, tule meie töökotta Talli
     slug: 'winter-car-maintenance-tips',
     title: '5 lihtsat nippi, kuidas pikendada auto mootori eluiga',
     summary: 'Mootori eluiga sõltub lihtsatest hooldusvõtetest. Õlivahetus, jahutussüsteemi kontroll, filtrite vahetus, rahulik soojendamine ja regulaarne diagnostika aitavad vältida kulukat remonti.',
-    content: `Sissejuhatus
-Mootor on auto süda ja selle korrashoid sõltub suuresti igapäevastest harjumustest. Väikesed tähelepanekud ja õiged hooldusrutiinid aitavad vältida suuri kulusid ning pikendavad mootori eluiga aastateks. Allpool toome viis praktilist soovitust, mida iga autojuht saab järgida.
+    content: `Mootor on auto süda ja selle korrashoid sõltub suuresti igapäevastest harjumustest. Väikesed tähelepanekud ja õiged hooldusrutiinid aitavad vältida suuri kulusid ning pikendavad mootori eluiga mitu aastat. Allpool toome viis praktilist soovitust, mida iga autojuht saab järgida.
 
 1. Õigeaegne õlivahetus
-
 Õli määrib ja kaitseb mootorit kulumise eest. Kui õlivahetus jääb tegemata, koguneb õlisse mustus, mis kahjustab mootori sisemisi osi. Soovitame vahetada õli vastavalt tootja soovitusele või sagedamini, kui auto töötab rasketes tingimustes, näiteks linnasõidus või maastikul.
 
 2. Jahutussüsteemi kontroll
-
 Ülekuumenemine on üks levinumaid põhjuseid, miks mootorid enneaegselt kuluvad. Kontrolli regulaarselt jahutusvedeliku taset ja seisukorda. Samuti veendu, et radiaator ja jahutusventilaatorid töötaksid korralikult.
 
 3. Filtrite vahetus
-
 Õhufilter, kütusefilter ja õlifilter tagavad, et mootor saab puhta õhu ja kütuse. Ummistunud filtrid koormavad mootorit ja vähendavad selle tööiga. Filtrite regulaarne vahetus on lihtne viis vältida suuri remondiarveid.
 
 4. Külma mootoriga rahulik sõit
-
 Külmal mootoril ei ole õli veel piisavalt ringelnud. Ära koorma autot kohe pärast käivitust. Lase mootoril mõni minut rahulikult töötada või sõida esimesed kilomeetrid rahulikult, et anda aega määrdeainetel süsteemis jaotuda.
 
 5. Regulaarne diagnostika
-
 Kaasaegsed autod annavad veakoodide kaudu märku probleemidest juba varakult. Kui teed ennetavat diagnostikat, saad probleemid lahendada enne, kui need suureks kasvavad.
 
-CTA:
 Kui soovid oma auto mootorit kaitsta ja pikemat eluiga tagada, broneeri hooldus meie töökojas Tallinnas. Kontrollime põhjalikult ja anname soovitused, et sinu auto kestaks kauem.`,
     createdAt: '2024-02-10',
   },
@@ -85,91 +78,54 @@ Kui soovid oma auto mootorit kaitsta ja pikemat eluiga tagada, broneeri hooldus 
     id: '3',
     slug: 'signs-your-car-needs-immediate-attention',
     title: 'Miks valida Mercedes-Benz OM648 mootor ümberehituseks Nissan Patrol Y61-le?',
-    summary: "Nissan Patrol Y61 on legendaarne maastur, mida hinnatakse vastupidavuse ja töökindluse tõttu. Kuid paljud omanikud soovivad rohkem jõudu ja ökonoomsust. Üheks populaarseimaks lahenduseks on Mercedes-Benz OM648 mootori paigaldamine.",
-    content: `OM648 eelised
+    summary: 'OM648 mootor on Nissan Patrol Y61 omanike seas tõestanud end kui ideaalne mootori vahetuse valik. See pakub jõudu, töökindlust ja võimalust oma masinat täiesti uuele tasemele viia.',
+    content: ` Nissan Patrol Y61 on legendaarne maastur, mida hinnatakse vastupidavuse ja töökindluse tõttu. Kuid paljud omanikud soovivad rohkem jõudu ja ökonoomsust. Üheks populaarseimaks lahenduseks on Mercedes-Benz OM648 mootori paigaldamine.
 
+OM648 eelised
 OM648 on tuntud oma vastupidavuse, suure pöördemomendi ja sobivuse poolest nii maanteele kui ka raskesse maastikusse. Mootor pakub rohkem jõudu kui Patroli originaalmootor, olles samas ökonoomsem ja töökindlam.
 
 Vajalikud detailid ümberehituseks
-
 Et OM648 mootor sobituks Nissan Patrol Y61 kere ja käigukastiga, on vaja erilahendusi:
-
 Mootori käpad tagavad, et mootor kinnitub kindlalt ja talub ka rasket maastikusõitu.
+
 
 Hübriid turbo annab lisa jõudlust ja parema vastupidavuse.
 
+
 722.6 vaheplaat võimaldab ühendada Mercedes automaatkäigukasti Nissan Patroli vahekastiga.
+
 
 Kõik need detailid on loodud just sellisteks projektideks ja neid saab meie kaudu tellida.
 
 Töökindluse ja jõudluse kombinatsioon
-
 OM648 vahetus ei tähenda ainult suuremat võimsust, vaid ka pikaealisust. Õigesti paigaldatud ja hooldatud mootor kestab aastaid ning muudab auto sobivaks nii igapäevasõiduks kui ka ekstreemseks off-road’iks.
 
-Kokkuvõte
-OM648 mootor on Nissan Patrol Y61 omanike seas tõestanud end kui ideaalne swap’i valik. See pakub jõudu, töökindlust ja võimalust oma masinat täiesti uuele tasemele viia.
-
-CTA:
-Kui plaanid OM648 ümberehitust või vajad vajalikke detaile, võta ühendust meie meeskonnaga. Aitame projektiga algusest lõpuni.`,
+Kui plaanid OM648 ümberehitust või vajad vajalikke detaile, võta meiega ühendust. Aitame projektiga algusest lõpuni.`,
     createdAt: '2024-03-05',
   },
   {
     id: '4',
     slug: 'benefits-of-regular-vehicle-servicing',
     title: 'Kuidas lisada oma autole vastupidavust ja uusi võimalusi',
-    summary: "Paljude autoomanike jaoks ei ole masin ainult liikumisvahend, vaid projekt või tööriist, mida saab vastavalt vajadusele täiustada. Lisavarustus ei ole pelgalt mugavus, vaid tihti hädavajalik töökindluse ja ohutuse tagamiseks.",
-    content: `Regular vehicle servicing is one of the most important investments you can make for your car. Here's why scheduled maintenance matters:
+    summary: 'Lisavarustus suurendab auto vastupidavust, ohutust ja väärtust. See võib tähendada lisa kütusepaaki, vintsi või täiesti erilahendust.',
+    content: `Paljude autoomanike jaoks ei ole masin ainult liikumisvahend, vaid projekt või tööriist, mida saab vastavalt vajadusele täiustada. Lisavarustus ei ole pelgalt mugavus, vaid tihti hädavajalik töökindluse ja ohutuse tagamiseks.
 
-Cost Savings:
+Vintsid ja pukseerimisvõimalused
+Maastikusõidul on oluline, et suudaksid end ise raskest olukorrast välja aidata. Kvaliteetne vints või pukseerimiskonksud annavad kindlustunde, et ükski rada ei jää läbimata.
 
-Preventive maintenance is always cheaper than emergency repairs. Regular servicing helps identify small problems before they become expensive failures.
+Lisa kütusepaagid
+Kui plaanid pikemaid sõite või seiklusi, annab lisa kütusepaak suurema sõiduulatuse. See on populaarne lahendus just maasturite ja ekspeditsiooniautode omanike seas.
 
-- Oil changes prevent engine wear
-- Brake inspections avoid costly rotor replacement
-- Fluid checks prevent system damage
-- Filter replacements maintain efficiency
+Vedrustuse ja sillatugede tugevdamine
+Tugevdatud vedrustus ja roostevabad detailid pikendavad auto eluiga ja annavad lisakindlust karmides tingimustes. Näiteks Nissan Patrol Y61 käänmiku munaka plekid aitavad vältida enneaegset kulumist.
 
-Safety Benefits:
+Põhjakaitsed ja metalltööd
+Metallist põhjakaitsed ja erilahendused hoiavad ära kahjustused, mis võivad tekkida kivide ja okste tõttu. See on investeering, mis hoiab kokku kulusid tulevikus.
 
-Well-maintained vehicles are safer vehicles. Regular servicing ensures:
+Projektiautod ja erilahendused
+Oleme ehitanud nii erivarustusega masinaid kui ka unikaalseid projektiautosid. Iga lahendus on kohandatud kliendi vajaduste järgi, olgu see lisa tuled, uued paigalduslahendused või keerukad metalltööd.
 
-- Properly functioning brakes
-- Good tire condition and alignment
-- Working lights and signals
-- Reliable steering and suspension
-
-Performance and Efficiency:
-
-Regular maintenance keeps your vehicle running at peak performance:
-
-- Better fuel economy
-- Smoother acceleration
-- Improved handling
-- Optimal engine performance
-
-Reliability:
-
-Scheduled servicing reduces the risk of breakdowns:
-
-- Fewer unexpected failures
-- Increased vehicle longevity
-- Better resale value
-- Peace of mind
-
-Our Service Approach:
-
-At SOO AUTOGRUPP, we follow manufacturer recommendations and use quality parts. Our comprehensive service includes:
-
-- Complete vehicle inspection
-- Fluid level checks and top-ups
-- Filter replacements
-- Brake inspection
-- Tire rotation and pressure check
-- Safety system verification
-
-We maintain detailed service records for your vehicle and remind you when service is due.
-
-Book your next service appointment today and experience the SOO AUTOGRUPP difference!`,
+Kui soovid oma autole rohkem vastupidavust ja lisafunktsioone, võta meiega ühendust. Aitame leida lahenduse, mis sobib täpselt sinu autole ja vajadustele.`,
     createdAt: '2024-03-20',
   },
 ];
