@@ -33,7 +33,13 @@ export default function BlogContent({ content }: BlogContentProps) {
           }
         }
 
-        if (trimmedLine.startsWith('Kui sinu autol') || trimmedLine.startsWith('CTA:')) {
+        if (
+          trimmedLine.startsWith('Kui sinu autol') ||
+          trimmedLine.startsWith('CTA:') ||
+          trimmedLine.startsWith('Kui soovid oma auto mootorit') ||
+          trimmedLine.startsWith('Kui plaanid OM648') ||
+          trimmedLine.startsWith('Kui soovid oma autole')
+        ) {
           const cleanedLine = trimmedLine.replace(/^CTA:\s*/, '');
           return (
             <div key={index} className="bg-blue-50 border-l-4 border-blue-600 p-6 my-8 rounded-r-lg">
@@ -44,7 +50,19 @@ export default function BlogContent({ content }: BlogContentProps) {
           );
         }
 
-        if (trimmedLine === 'Kokkuvõte' || trimmedLine === 'Mida teha, kui mootorituli süttib?' || trimmedLine === 'Levinumad põhjused') {
+        if (
+          trimmedLine === 'Kokkuvõte' ||
+          trimmedLine === 'Mida teha, kui mootorituli süttib?' ||
+          trimmedLine === 'Levinumad põhjused' ||
+          trimmedLine === 'OM648 eelised' ||
+          trimmedLine === 'Vajalikud detailid ümberehituseks' ||
+          trimmedLine === 'Töökindluse ja jõudluse kombinatsioon' ||
+          trimmedLine === 'Vintsid ja pukseerimisvõimalused' ||
+          trimmedLine === 'Lisa kütusepaagid' ||
+          trimmedLine === 'Vedrustuse ja sillatugede tugevdamine' ||
+          trimmedLine === 'Põhjakaitsed ja metalltööd' ||
+          trimmedLine === 'Projektiautod ja erilahendused'
+        ) {
           return (
             <h2 key={index} className="text-2xl font-bold text-slate-900 mt-8 mb-4">
               {trimmedLine}
