@@ -36,7 +36,6 @@ Why Regular Diagnostics Matter:
 At SOO AUTOGRUPP, we use state-of-the-art diagnostic equipment to quickly identify any issues with your vehicle. Our experienced technicians can interpret diagnostic data and recommend the best solutions for your car.
 
 Contact us today to schedule a diagnostic check for your vehicle.`,
-    createdAt: '2024-01-15',
   },
   {
     id: '2',
