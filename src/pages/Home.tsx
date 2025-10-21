@@ -224,9 +224,9 @@ export default function Home() {
                         isTransitioning
                           ? offset === 0
                             ? 'animate-[slideOutLeft_1s_ease-in-out]'
-                            : offset === 2
-                            ? 'animate-[slideInRight_1s_ease-in-out]'
-                            : ''
+                            : offset === 1
+                            ? 'animate-[slideOutLeft_1s_ease-in-out]'
+                            : 'animate-[slideInRight_1s_ease-in-out]'
                           : ''
                       }`}
                     >
