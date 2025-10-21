@@ -25,14 +25,7 @@ export default function Blog() {
                 <p className="text-slate-600 mb-4 leading-relaxed">
                   {post.summary}
                 </p>
-                <div className="flex items-center justify-between">
-                  <span className="text-sm text-slate-500">
-                    {new Date(post.createdAt).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
-                  </span>
+                <div className="flex items-center justify-end">
                   <span className="text-blue-600 font-medium group-hover:underline">
                     Read more →
                   </span>

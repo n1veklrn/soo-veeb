@@ -36,16 +36,7 @@ export default function BlogPost() {
 
         <article>
           <header className="mb-8 pb-8 border-b border-slate-200">
-            <h1 className="text-4xl font-bold text-slate-900 mb-4">{post.title}</h1>
-            <div className="flex items-center text-slate-600">
-              <time dateTime={post.createdAt}>
-                {new Date(post.createdAt).toLocaleDateString('en-US', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                })}
-              </time>
-            </div>
+            <h1 className="text-4xl font-bold text-slate-900">{post.title}</h1>
           </header>
 
           <div className="prose prose-slate max-w-none">
