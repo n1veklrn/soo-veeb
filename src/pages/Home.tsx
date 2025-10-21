@@ -6,6 +6,7 @@ import ImageModal from '../components/ImageModal';
 export default function Home() {
   const [selectedImage, setSelectedImage] = React.useState<{ src: string; alt: string } | null>(null);
   const [currentReviewIndex, setCurrentReviewIndex] = React.useState(0);
+  const [isTransitioning, setIsTransitioning] = React.useState(false);
 
   React.useEffect(() => {
     document.title = 'Soo Autogrupp - Professionaalne autohooldus Tallinnas';
@@ -76,7 +77,11 @@ export default function Home() {
 
   React.useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
+      setIsTransitioning(true);
+      setTimeout(() => {
+        setCurrentReviewIndex((prev) => (prev + 1) % reviews.length);
+        setIsTransitioning(false);
+      }, 1000);
     }, 10000);
 
     return () => clearInterval(interval);
@@ -207,30 +212,36 @@ export default function Home() {
 
           <div className="max-w-5xl mx-auto">
             <div className="relative overflow-hidden">
-              <div
-                className="flex transition-transform duration-1000 ease-in-out gap-6 mb-8"
-                style={{
-                  transform: `translateX(-${currentReviewIndex * (100 / 3)}%)`,
-                  width: `${(reviews.length * 100 / 3)}%`
-                }}
-              >
-                {reviews.map((review, index) => (
-                  <div
-                    key={index}
-                    className="bg-white p-6 rounded-lg shadow-md flex-shrink-0"
-                    style={{ width: `calc(${100 / reviews.length}% - 1rem)` }}
-                  >
-                    <div className="flex mb-3">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                      ))}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                {[0, 1, 2].map((offset) => {
+                  const reviewIndex = (currentReviewIndex + offset) % reviews.length;
+                  const review = reviews[reviewIndex];
+
+                  return (
+                    <div
+                      key={`${reviewIndex}-${offset}`}
+                      className={`bg-white p-6 rounded-lg shadow-md ${
+                        isTransitioning
+                          ? offset === 0
+                            ? 'animate-[slideOutLeft_1s_ease-in-out]'
+                            : offset === 2
+                            ? 'animate-[slideInRight_1s_ease-in-out]'
+                            : ''
+                          : ''
+                      }`}
+                    >
+                      <div className="flex mb-3">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                        ))}
+                      </div>
+                      <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
+                        "{review.text}"
+                      </p>
+                      <p className="text-gray-900 font-semibold">{review.name}</p>
                     </div>
-                    <p className="text-gray-700 mb-4 text-sm md:text-base leading-relaxed">
-                      "{review.text}"
-                    </p>
-                    <p className="text-gray-900 font-semibold">{review.name}</p>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
 
