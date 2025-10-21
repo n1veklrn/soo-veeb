@@ -52,10 +52,6 @@ Pane tähele, kas kaasnevad ka muud sümptomid (tõmblemine, suits, ebatavaline 
 
 Broneeri diagnostika nii kiiresti kui võimalik.
 
-Kokkuvõte
-
-Mootorituli ei ole lihtsalt tüütu sümbol armatuuril, vaid oluline hoiatussüsteem, mis aitab vältida suuremaid rikkeid. Levinumad põhjused ulatuvad lihtsatest anduririketest kuni kütuse- või süütesüsteemi probleemideni. Õigeaegne diagnostika säästab raha ja hoiab auto töökorras.
-
 Kui sinu autol hakkas armatuuril põlema mootorituli, tule meie töökotta Tallinnas. Leiame vea kiiresti üles ja aitame vältida suuremaid kulusid.`,
     createdAt: '2024-01-15',
   },
@@ -63,8 +59,9 @@ Kui sinu autol hakkas armatuuril põlema mootorituli, tule meie töökotta Talli
     id: '2',
     slug: 'winter-car-maintenance-tips',
     title: '5 lihtsat nippi, kuidas pikendada auto mootori eluiga',
-    summary: 'Mootor on auto süda ja selle korrashoid sõltub suuresti igapäevastest harjumustest. Väikesed tähelepanekud ja õiged hooldusrutiinid aitavad vältida suuri kulusid ning pikendavad mootori eluiga aastateks.',
-    content: `Allpool toome viis praktilist soovitust, mida iga autojuht saab järgida.
+    summary: 'Mootori eluiga sõltub lihtsatest hooldusvõtetest. Õlivahetus, jahutussüsteemi kontroll, filtrite vahetus, rahulik soojendamine ja regulaarne diagnostika aitavad vältida kulukat remonti.',
+    content: `Sissejuhatus
+Mootor on auto süda ja selle korrashoid sõltub suuresti igapäevastest harjumustest. Väikesed tähelepanekud ja õiged hooldusrutiinid aitavad vältida suuri kulusid ning pikendavad mootori eluiga aastateks. Allpool toome viis praktilist soovitust, mida iga autojuht saab järgida.
 
 1. Õigeaegne õlivahetus
 
@@ -85,9 +82,6 @@ Külmal mootoril ei ole õli veel piisavalt ringelnud. Ära koorma autot kohe p�
 5. Regulaarne diagnostika
 
 Kaasaegsed autod annavad veakoodide kaudu märku probleemidest juba varakult. Kui teed ennetavat diagnostikat, saad probleemid lahendada enne, kui need suureks kasvavad.
-
-Kokkuvõte
-Mootori eluiga sõltub lihtsatest hooldusvõtetest. Õlivahetus, jahutussüsteemi kontroll, filtrite vahetus, rahulik soojendamine ja regulaarne diagnostika aitavad vältida kulukat remonti.
 
 CTA:
 Kui soovid oma auto mootorit kaitsta ja pikemat eluiga tagada, broneeri hooldus meie töökojas Tallinnas. Kontrollime põhjalikult ja anname soovitused, et sinu auto kestaks kauem.`,
