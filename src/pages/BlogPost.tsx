@@ -1,10 +1,15 @@
 import { useParams, Link } from 'react-router-dom';
+import { useEffect } from 'react';
 import { blogPosts } from '../data/blogPosts';
 import BlogContent from '../components/BlogContent';
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const post = blogPosts.find((p) => p.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [slug]);
 
   if (!post) {
     return (
