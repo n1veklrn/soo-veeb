@@ -12,8 +12,11 @@ export const blogPosts: BlogPost[] = [
     id: '1',
     slug: 'mootorituli-pohjused',
     title: 'Levinumad põhjused, miks hakkab armatuuril põlema mootorituli ja mida edasi teha',
-    summary: 'Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni.',
-    content: `Mis on mootorituli ja miks see süttib?
+    summary: 'Mootorituli ei ole lihtsalt tüütu sümbol armatuuril, vaid oluline hoiatussüsteem, mis aitab vältida suuremaid rikkeid. Levinumad põhjused ulatuvad lihtsatest anduririketest kuni kütuse- või süütesüsteemi probleemideni. Õigeaegne diagnostika säästab raha ja hoiab auto töökorras.',
+    content: `Sissejuhatus
+Kui armatuuril süttib oranž või kollane mootorituli, on esimene reaktsioon sageli paanika. Kas auto on kohe katki? Kas võib edasi sõita või tuleb auto seisma jätta? Tõde on see, et mootorituli võib tähendada väga erinevaid asju. Mõnikord on probleem lihtne ja odav lahendada, kuid teinekord peidab see endas tõsisemat riket, mis võib tähelepanuta jätmisel viia suuremate kuludeni. Selles artiklis vaatame üle levinumad põhjused, miks mootorituli põlema hakkab, ning selgitame, kuidas meie töökojas Tallinnas probleemid kiirelt ja täpselt kindlaks teeme.
+    
+    Mis on mootorituli ja miks see süttib?
 
 Mootorituli on osa auto pardaarvuti süsteemist. Kui mõni andur avastab kõrvalekalde, annab süsteem sellest märku läbi armatuuril põleva sümboli. See on justkui hoiatus, et midagi ei tööta nii, nagu peaks. Mõnikord kustub tuli pärast mõnda käivitust ise, kuid see ei tähenda, et probleem oleks kadunud.
 
@@ -60,85 +63,74 @@ Kui sinu autol hakkas armatuuril põlema mootorituli, tule meie töökotta Talli
   {
     id: '2',
     slug: 'winter-car-maintenance-tips',
-    title: '5 Essential Winter Car Maintenance Tips',
-    summary: 'Prepare your vehicle for winter weather with these essential maintenance tips. Keep your car running smoothly through the cold months.',
-    content: `Winter weather can be harsh on vehicles. Follow these essential maintenance tips to keep your car running smoothly during the cold months.
+    title: '5 lihtsat nippi, kuidas pikendada auto mootori eluiga',
+    summary: 'Mootor on auto süda ja selle korrashoid sõltub suuresti igapäevastest harjumustest. Väikesed tähelepanekud ja õiged hooldusrutiinid aitavad vältida suuri kulusid ning pikendavad mootori eluiga aastateks.',
+    content: `Allpool toome viis praktilist soovitust, mida iga autojuht saab järgida.
 
-1. Check Your Battery
+1. Õigeaegne õlivahetus
 
-Cold weather reduces battery capacity. Have your battery tested before winter arrives. Replace it if it's more than 3-4 years old.
+Õli määrib ja kaitseb mootorit kulumise eest. Kui õlivahetus jääb tegemata, koguneb õlisse mustus, mis kahjustab mootori sisemisi osi. Soovitame vahetada õli vastavalt tootja soovitusele või sagedamini, kui auto töötab rasketes tingimustes, näiteks linnasõidus või maastikul.
 
-2. Inspect Your Tires
+2. Jahutussüsteemi kontroll
 
-Winter tires provide better traction in snow and ice. Check tire pressure regularly as it drops in cold weather. Ensure adequate tread depth for safe driving.
+Ülekuumenemine on üks levinumaid põhjuseid, miks mootorid enneaegselt kuluvad. Kontrolli regulaarselt jahutusvedeliku taset ja seisukorda. Samuti veendu, et radiaator ja jahutusventilaatorid töötaksid korralikult.
 
-3. Test Your Heating System
+3. Filtrite vahetus
 
-A functioning heater is essential for comfort and safety. Check that your heating system works properly and that the defroster clears windows effectively.
+Õhufilter, kütusefilter ja õlifilter tagavad, et mootor saab puhta õhu ja kütuse. Ummistunud filtrid koormavad mootorit ja vähendavad selle tööiga. Filtrite regulaarne vahetus on lihtne viis vältida suuri remondiarveid.
 
-4. Replace Wiper Blades and Washer Fluid
+4. Külma mootoriga rahulik sõit
 
-Install winter wiper blades and use washer fluid rated for freezing temperatures. Good visibility is crucial for winter driving safety.
+Külmal mootoril ei ole õli veel piisavalt ringelnud. Ära koorma autot kohe pärast käivitust. Lase mootoril mõni minut rahulikult töötada või sõida esimesed kilomeetrid rahulikult, et anda aega määrdeainetel süsteemis jaotuda.
 
-5. Check Your Antifreeze
+5. Regulaarne diagnostika
 
-Ensure your coolant is properly mixed and at the correct level. This prevents your engine from freezing and protects against overheating.
+Kaasaegsed autod annavad veakoodide kaudu märku probleemidest juba varakult. Kui teed ennetavat diagnostikat, saad probleemid lahendada enne, kui need suureks kasvavad.
 
-Professional Winter Preparation:
+Kokkuvõte
+Mootori eluiga sõltub lihtsatest hooldusvõtetest. Õlivahetus, jahutussüsteemi kontroll, filtrite vahetus, rahulik soojendamine ja regulaarne diagnostika aitavad vältida kulukat remonti.
 
-Our team at SOO AUTOGRUPP offers comprehensive winter preparation services. We'll inspect all critical systems and ensure your vehicle is ready for winter conditions.
-
-Schedule your winter check-up today!`,
+CTA:
+Kui soovid oma auto mootorit kaitsta ja pikemat eluiga tagada, broneeri hooldus meie töökojas Tallinnas. Kontrollime põhjalikult ja anname soovitused, et sinu auto kestaks kauem.`,
     createdAt: '2024-02-10',
   },
   {
     id: '3',
     slug: 'signs-your-car-needs-immediate-attention',
-    title: 'Warning Signs Your Car Needs Immediate Attention',
-    summary: "Don't ignore these critical warning signs. Learn which symptoms indicate serious problems that require immediate professional attention.",
-    content: `Some car problems can wait, but others require immediate attention. Here are warning signs you should never ignore:
+    title: 'Miks valida Mercedes-Benz OM648 mootor ümberehituseks Nissan Patrol Y61-le?',
+    summary: "Nissan Patrol Y61 on legendaarne maastur, mida hinnatakse vastupidavuse ja töökindluse tõttu. Kuid paljud omanikud soovivad rohkem jõudu ja ökonoomsust. Üheks populaarseimaks lahenduseks on Mercedes-Benz OM648 mootori paigaldamine.",
+    content: `OM648 eelised
 
-Dashboard Warning Lights:
+OM648 on tuntud oma vastupidavuse, suure pöördemomendi ja sobivuse poolest nii maanteele kui ka raskesse maastikusse. Mootor pakub rohkem jõudu kui Patroli originaalmootor, olles samas ökonoomsem ja töökindlam.
 
-- Check Engine Light - Could indicate serious engine problems
-- Oil Pressure Warning - Immediate attention needed to prevent engine damage
-- Brake System Warning - Critical safety issue
-- Temperature Warning - Engine overheating risk
+Vajalikud detailid ümberehituseks
 
-Unusual Sounds:
+Et OM648 mootor sobituks Nissan Patrol Y61 kere ja käigukastiga, on vaja erilahendusi:
 
-- Grinding from brakes - Worn brake pads or rotor damage
-- Knocking from engine - Potential serious engine damage
-- Squealing belts - Worn or loose drive belts
-- Clunking when turning - Possible suspension or steering issues
+Mootori käpad tagavad, et mootor kinnitub kindlalt ja talub ka rasket maastikusõitu.
 
-Performance Problems:
+Hübriid turbo annab lisa jõudlust ja parema vastupidavuse.
 
-- Difficulty starting - Battery or starter issues
-- Stalling or rough idle - Fuel system or ignition problems
-- Loss of power - Multiple potential causes requiring diagnosis
-- Excessive vibration - Tire, wheel, or engine mount issues
+722.6 vaheplaat võimaldab ühendada Mercedes automaatkäigukasti Nissan Patroli vahekastiga.
 
-Fluid Leaks:
+Kõik need detailid on loodud just sellisteks projektideks ja neid saab meie kaudu tellida.
 
-Different colored fluids indicate different problems:
-- Red/Pink: Transmission or power steering fluid
-- Green/Orange: Coolant
-- Brown/Black: Engine oil
-- Clear: Water (usually normal) or brake fluid (serious)
+Töökindluse ja jõudluse kombinatsioon
 
-What to Do:
+OM648 vahetus ei tähenda ainult suuremat võimsust, vaid ka pikaealisust. Õigesti paigaldatud ja hooldatud mootor kestab aastaid ning muudab auto sobivaks nii igapäevasõiduks kui ka ekstreemseks off-road’iks.
 
-If you notice any of these warning signs, don't delay. Contact SOO AUTOGRUPP immediately for professional diagnosis and repair. Ignoring these symptoms can lead to more expensive repairs or safety hazards.
+Kokkuvõte
+OM648 mootor on Nissan Patrol Y61 omanike seas tõestanud end kui ideaalne swap’i valik. See pakub jõudu, töökindlust ja võimalust oma masinat täiesti uuele tasemele viia.
 
-Emergency service available - call us today!`,
+CTA:
+Kui plaanid OM648 ümberehitust või vajad vajalikke detaile, võta ühendust meie meeskonnaga. Aitame projektiga algusest lõpuni.`,
     createdAt: '2024-03-05',
   },
   {
     id: '4',
     slug: 'benefits-of-regular-vehicle-servicing',
-    title: 'The Benefits of Regular Vehicle Servicing',
-    summary: "Regular maintenance extends your vehicle's life and saves money. Discover why scheduled servicing is one of the best investments you can make.",
+    title: 'Kuidas lisada oma autole vastupidavust ja uusi võimalusi',
+    summary: "Paljude autoomanike jaoks ei ole masin ainult liikumisvahend, vaid projekt või tööriist, mida saab vastavalt vajadusele täiustada. Lisavarustus ei ole pelgalt mugavus, vaid tihti hädavajalik töökindluse ja ohutuse tagamiseks.",
     content: `Regular vehicle servicing is one of the most important investments you can make for your car. Here's why scheduled maintenance matters:
 
 Cost Savings:
